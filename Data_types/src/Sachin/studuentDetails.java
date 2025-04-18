@@ -1,0 +1,32 @@
+package Sachin;
+import java.util.Scanner;
+public class studuentDetails {
+	String name,branch;
+	float marks,java,c,python,per,total;
+	Scanner in=new Scanner(System.in);
+	void studentData() {
+		System.out.println("Enter the Details of Student");
+		System.out.println("Enter the Name of Student");
+		name=in.next();
+		System.out.println("Enter the Branch Name");
+		branch=in.next();
+		System.out.println("Enter the marks of  Student");
+		System.out.println("Enter the marks of java");
+		java=in.nextInt();
+		System.out.println("Enter the marks of c");
+		c=in.nextInt();
+		System.out.println("Enter the python marks");
+		python=in.nextInt();
+		System.out.println("total marks  of Student");
+		total=(java+c+python);
+		System.out.println(total);
+		per=(total/3f);
+		System.out.println("Percentage of marks :"+per);
+	}
+
+
+	public static void main(String[] args) {
+		studuentDetails st=new studuentDetails();
+		st.studentData();
+	}
+}
