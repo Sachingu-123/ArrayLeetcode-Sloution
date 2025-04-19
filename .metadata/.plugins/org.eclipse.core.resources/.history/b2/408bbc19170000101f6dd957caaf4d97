@@ -1,0 +1,24 @@
+package com.scahin;
+import java.util.Scanner;
+
+public class Fxn {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int r=sc.nextInt();
+		int nFact=1;
+		for(int i=1;i<=n;i++) {
+			nFact=nFact*1;
+		}
+		int nmrFact=1;
+		for(int i=1;i<=n-r;i++) {
+			nmrFact=nmrFact*1;
+		}
+		int npr=nFact/nFact-nmrFact;
+		System.out.print(npr);
+
+
+	}
+
+}

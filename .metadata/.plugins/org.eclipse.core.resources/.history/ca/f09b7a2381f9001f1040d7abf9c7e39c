@@ -1,0 +1,60 @@
+package Sachin;
+
+import java.util.Scanner;
+
+public class Method {
+	int num1,num2;
+	int ans;
+	Scanner sc=new Scanner(System.in);
+	void add() {
+		System.out.println("Enter the first number");
+		num1=sc.nextInt();
+		System.out.println("Enter the second number");
+		num2=sc.nextInt();
+		ans=num1+num2;
+		System.out.println("The sum of two no. is"+ ans);
+	}
+	int sub() {
+		System.out.println("Enter the first number");
+		num1=sc.nextInt();
+		System.out.println("Enter the second number");
+		num2=sc.nextInt();
+		 ans=num1-num2;
+		 System.out.println(ans);
+		 return ans;
+		
+	}
+	void mul(int a,int b) {
+//		System.out.println("Enter the first number");
+//		num1=sc.nextInt();
+//		System.out.println("Enter the second number");
+//		num2=sc.nextInt();
+		ans=num1*num2;
+		System.out.println(ans);
+	}
+	void div() {
+		System.out.println("Enter the first number");
+		num1=sc.nextInt();
+		System.out.println("Enter the second number");
+		num2=sc.nextInt();
+		ans=num1/num2;
+		System.out.println(ans);
+		
+	}
+	
+	
+	
+	public static void main(String[] args){
+		Method mt=new Method();
+//		mt.add();
+//		mt.sub();
+		mt.mul(5,8);
+//		mt.div();
+		}
+	
+}
+
+
+
+
+//method type

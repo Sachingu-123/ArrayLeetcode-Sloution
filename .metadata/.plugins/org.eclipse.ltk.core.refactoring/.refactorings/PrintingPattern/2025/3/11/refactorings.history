@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SwitchTable.java&apos; to &apos;SwitchCase.SwitchTable.java&apos;&#x0D;&#x0A;- Original project: &apos;PrintingPattern&apos;&#x0D;&#x0A;- Destination element: &apos;SwitchCase.SwitchTable.java&apos;&#x0D;&#x0A;- Original element: &apos;SwitchCase.SwitchTable.java&apos;" description="Copy compilation unit" destination="/src&lt;SwitchCase{SwitchTable.java" element1="/src&lt;SwitchCase{SwitchTable.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1741624212853" units="1" version="1.0"/>
+</session>

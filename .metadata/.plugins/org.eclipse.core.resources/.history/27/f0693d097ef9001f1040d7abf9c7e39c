@@ -1,0 +1,42 @@
+package Sachin;
+
+import java.util.Scanner;
+
+public class Method {
+	int num1,num2,ans;
+	Scanner sc=new Scanner(System.in);
+	void add() {
+		System.out.println("Enter the first number");
+		num1=sc.nextInt();
+		System.out.println("Enter the second number");
+		num2=sc.nextInt();
+		ans=num1+num2;
+		System.out.println("The sum of two no. is"+ ans);
+	}
+	int sub() {
+		System.out.println("Enter the first number");
+		num1=sc.nextInt();
+		System.out.println("Enter the second number");
+		num2=sc.nextInt();
+		ans=num1-num2;
+		return ans;
+	}
+//	void mul(num1,num2) {
+//		
+//	}
+	
+	
+	
+	
+	public static void main(String[] args){
+		Method mt=new Method();
+//		mt.add();
+		mt.sub();
+	}
+	
+}
+
+
+
+
+//method type
